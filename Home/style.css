@@ -1,5 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+*{
+    font-family: 'Rubik', sans-serif;
+}
 body{
     margin: 0;
     display: flex;
     flex-direction: column;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #1F2937;
+}
+.logo{
+    margin-top:32px;
+    margin-left: 150px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #F9FAF8;
+}
+.side-links{
+    margin-top:32px;
+    margin-right: 150px;
+    gap: 16px;
+    display: flex;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+/*        Section          */
+section{
+    display: flex;
+    flex-direction: column;
+}
+.one{
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-between;
+}
+.description{
+    display:flex;
+    gap: 16px;
+    flex-direction: column;
+    margin-left: 150px;
+    margin-top:32px;
+}
+.desc-main-text{
+    color:#F9FAF8;
+    font-size: 48px;
+}
+.desc-secondary-text{
+    width: 600px;
+    color: #e5e7eb;
+    font-size: 18px;
+}
+.description button{
+    color:#F9FAF8;
+    background-color: #3882f6;
+    font-size: 24px;
+    width: 150px;
+    padding: 8px ;
+    border-radius: 12px;
+}
+.placeholder-image{
+    color:#F9FAF8;
+    margin-right: 150px;
+    margin-top:32px;
+    margin-bottom: 72px;
+}
+.placeholder-image img{
+    width: 500px;
+    height: auto;
+}
+footer{
+    background-color: #1F2937;
 }
