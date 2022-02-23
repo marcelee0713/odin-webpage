@@ -1,4 +1,3 @@
-# odin-webpage
+# Webpage
 Doing the Odin Webpage
-Image by James Wheeler 
-Follow him here https://www.pexels.com/@souvenirpixels?filter=photos
+## Image by [James Wheeler](https://www.pexels.com/@souvenirpixels?filter=photos "James Wheeler")
