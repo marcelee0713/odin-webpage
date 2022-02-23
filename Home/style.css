@@ -30,6 +30,7 @@ header{
 /*        Section          */
 section{
     display: flex;
+    flex:1;
     flex-direction: column;
 }
 /*        Section Page One         */
@@ -57,10 +58,11 @@ section{
 .description button{
     color:#F9FAF8;
     background-color: #3882f6;
-    font-size: 24px;
+    font-size: 20px;
     width: 150px;
     padding: 8px ;
     border-radius: 12px;
+    border-color:transparent;
 }
 .placeholder-image{
     color:#F9FAF8;
@@ -137,6 +139,39 @@ section{
     color: #1F2937;
     font-weight: bold;
 }
+/*        Section Page Four          */
+.blue-container{
+    box-sizing: border-box;
+    padding: 48px 128px; 
+    justify-content:space-between;
+    display: flex;
+    background-color: #3882f6;
+    margin:100px 150px 100px 150px;
+    border-radius: 12px;
+}
+.container-text{
+    display:flex;
+    flex-direction: column;
+    color:#F9FAF8;
+}
+.four-header{
+    font-weight: bold;
+    font-size: 24px;
+}
+.blue-container button{
+    color:#F9FAF8;
+    background-color: #3882f6;
+    font-size: 20px;
+    width: 150px;
+    padding: 8px ;
+    border-radius: 12px;
+    border-color:#F9FAF8;
+}
 footer{
+    height:75px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
     background-color: #1F2937;
+    color: #F9FAF8;
 }
